@@ -1,6 +1,5 @@
 import threading
 import customtkinter as ctk
-import tkcalendar
 import CopilotAddIXLSkill
 import CopilotSettings
 import TeacherTools
@@ -112,5 +111,4 @@ def main_app():
     window.mainloop()
 
 
-if __name__ == "__main__":
-    main_app()
+main_app()
